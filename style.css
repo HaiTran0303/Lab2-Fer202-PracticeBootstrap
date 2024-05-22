@@ -1,0 +1,29 @@
+@media (max-width: 575.98px) {
+  .slide-section .dropdown {
+    display: block;
+  }
+  .slide-section .list-group {
+    display: none;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .slide-list {
+    display: none;
+  }
+}
+
+.fixed-height {
+    height: 147px; 
+    overflow: hidden;
+}
+.fixed-height img {
+    height: 100%;
+    width: auto;
+    object-fit: cover; 
+}
+
+
+.dropdown {
+    display: none;
+}
